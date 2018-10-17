@@ -1,1 +1,1 @@
-[{"__symbolic":"module","version":4,"metadata":{},"exports":[{"from":"./apnIonComponentsModule"},{"from":"./components/first-component"},{"from":"./providers/first-provider"}]}]
+[{"__symbolic":"module","version":4,"metadata":{},"exports":[{"from":"./testCustomeModule"},{"from":"./components/first-component"},{"from":"./providers/first-provider"}]}]

@@ -2,16 +2,16 @@ import { NgModule } from '@angular/core';
 import { FirstComponent } from './components/first-component';
 import { FirstProvider } from './providers/first-provider';
 import { IonicModule } from 'ionic-angular';
-var apnIonComponentsModule = (function () {
-    function apnIonComponentsModule() {
+var testCustomeModule = (function () {
+    function testCustomeModule() {
     }
-    apnIonComponentsModule.forRoot = function () {
+    testCustomeModule.forRoot = function () {
         return {
-            ngModule: apnIonComponentsModule,
+            ngModule: testCustomeModule,
             providers: [FirstProvider]
         };
     };
-    apnIonComponentsModule.decorators = [
+    testCustomeModule.decorators = [
         { type: NgModule, args: [{
                     imports: [
                         IonicModule
@@ -25,8 +25,8 @@ var apnIonComponentsModule = (function () {
                 },] },
     ];
     /** @nocollapse */
-    apnIonComponentsModule.ctorParameters = function () { return []; };
-    return apnIonComponentsModule;
+    testCustomeModule.ctorParameters = function () { return []; };
+    return testCustomeModule;
 }());
-export { apnIonComponentsModule };
+export { testCustomeModule };
 //# sourceMappingURL=testCustomeModule.js.map

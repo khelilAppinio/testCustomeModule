@@ -1,5 +1,5 @@
 {
-  "name": "testCustomeModule",
+  "name": "testCustomePackage",
   "version": "0.0.1",
   "description": "Components module",
   "main": "./dist/index.js",
@@ -7,8 +7,7 @@
   "files": ["dist"],
   "scripts": {
     "ngc": "ngc",
-    "build": "rm -rf dist && npm run ngc",
-    "publishPackage": "npm run build && npm publish"
+    "build": "rm -rf dist && npm run ngc"
   },
   "repository": {
     "type": "git",
